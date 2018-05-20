@@ -1,12 +1,12 @@
 
-#README
-#==================================================================
-#Data Analysis on the Human Activity Recognition Dataset
-#==================================================================
-#Author: Benz Nydegger, Coursera Student
-#Data Repository: https://github.com/benznydegger
-#Version: 1.0
-#Date:05-2018
+###README
+==================================================================
+Data Analysis on the Human Activity Recognition Dataset
+==================================================================
+Author: Benz Nydegger, Coursera Student
+Data Repository: https://github.com/benznydegger
+Version: 1.0
+Date:05-2018
 ==================================================================
 
 The Data Analysis Script 'run_analysis.R' has been created within a data science course project assignment.
@@ -14,22 +14,22 @@ It is reads data from the input data set 'UCI HAR Dataset', merges its training 
 Based on the newly extracted data set it analyses and creates an new tidy data set with the average of each variable for each activity and each subject.
 For more information on the UCI HAR Dataset and its measurements please refer to its README.txt and its feature_info.txt
 
-#The data analysis dataset includes the following files:
-#=========================================
+##The data analysis dataset includes the following files:
+##=========================================
 - 'README.md' : This file  gives explanation on how the analysis script works and how its interconnected files.
 - 'CodeBook.md': Explanation on variables used in the run_analysis.R script
 - 'run_analysis.R': Script that cleans and analysis the UCI HAR Dataset according to the Assignment_Instructions
 - 'Assignement_Instructions.txt': Background information on the Data Analysis course project scope.
 For more information about the data analysis dataset contact: Benz Nydegger
 
-#Prerequisites before running data analysis script:
-#=========================================
+##Prerequisites before running data analysis script:
+##=========================================
 - Complete 'UCI HAR Dataset': Source Input Data Set (Raw Data Set) - see INPUT-Dataset -
 - Make sure the 'UCI HAR Dataset' is placed at the same file system level as run_analysis.R
 - The user running 'run_analysis.R' needs write access in the directory it resides
 
-#INPUT-Dataset:
-#=========================================
+##INPUT-Dataset:
+##=========================================
 Download Link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 	UCI HAR Dataset
@@ -74,8 +74,8 @@ Download Link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUC
 	* See acknowledgements to this data set
 
 
-#DataAnalysis-Script:
-#=========================================
+##DataAnalysis-Script:
+##=========================================
 - 'run_analysis.R': Script that cleans and analysis the UCI HAR Dataset according to the Assignment_Instructions
 
 	run_analysis.R script breakdown:
@@ -86,29 +86,29 @@ Download Link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUC
 		Step_5. From the data set in step 4, create a second independent tidy  data set (run_analysis_output.csv), with the average of each variable for each activity and each subject.
 	
 
-#OUTPUT-Dataset:
-#=========================================
+##OUTPUT-Dataset:
+##=========================================
 - 'run_analysis_output.txt':  Tidy data set showing the average on the mean and standard deviation measurements for each activity and  each subject.
 
 
-#Notes: 
-#===================================
+##Notes: 
+##===================================
 The Data analysis script was developed and is intended to be run on
 	OS Platform: Windows 10
 	R-Studio - R version: 3.4.3 (2017-11-30)
 	R Packages dplyr, datasets
 
 
-#Acknowledgements:
-#===================================
+##Acknowledgements:
+##===================================
 Publication reference to the UCI HAR Dataset  :
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 
-#License:
-========
+##License:
+##========
 Free. No warranty . Run at your own risk.
 
 
