@@ -1,23 +1,22 @@
 
 
-#CODE-BOOK
-#==================================================================
-#'run_analysis.R' - Data Analysis on the Human Activity Recognition Dataset
-#==================================================================
-#Author: Benz Nydegger, Coursera Student
-#Data Repository: https://github.com/benznydegger
-#Version: 1.0
-#Date:05-2018
-==================================================================
+## CODE-BOOK
 
-Experimental design and background: 
+'run_analysis.R' - Data Analysis on the Human Activity Recognition Dataset
+Author: Benz Nydegger, Coursera Student
+Data Repository: https://github.com/benznydegger
+Version: 1.0
+Date:05-2018
+
+
+## Experimental design and background: 
 	Within the Human Activity Recognition Experiment data was collected by 30 volonteers using Smartphones.
 	Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 	Using its embedded accelerometer and gyroscope,  3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz was captured. (see README.txt & feature_info.txt)
 	Using the UCI HAR Dataset datanalysis was made to get a tidi data set on the average of each mean & standard deviation variable for each activity and each subject(volonteer/person)
 	
 
-Raw data from the UCI HAR Dataset:
+## Raw data from the UCI HAR Dataset:
 	- Measurements for the test data set are given in X_test.txt (scientific exponent notation: e.g. 2.5309467e-001);
 	- Measurements for the train data set are given in X_train.txt (scientific exponent notation: e.g.2.5309467e-001);
 	- Indexed feature list (561) given in features.txt (number and character string); 
@@ -26,7 +25,7 @@ Raw data from the UCI HAR Dataset:
 	- Activity is given in  x_test.txt for the testing set(integer); 
 	
 	
-Codebook: 
+## Codebook: 
 	Step_1. Measurement data from X_test.txt was loaded into a dataframe named testset (numeric floating-point); 
 	Measurement data from X_train.txt was loaded into a dataframe named trainset (numeric floating-point); 
 	Both data frames have been merged to one data frame named testandtraindataset (numeric floating-point);
@@ -49,7 +48,7 @@ Codebook:
 	The tidy solution data frame is written to the run_analysis_output.txt data set
 
 	
-Processed / Output Data: 
+## Processed / Output Data: 
 	run_analysis_output.txt
 	
 	Variable Names:
