@@ -14,22 +14,22 @@ It is reads data from the input data set 'UCI HAR Dataset', merges its training 
 Based on the newly extracted data set it analyses and creates an new tidy data set with the average of each variable for each activity and each subject.
 For more information on the UCI HAR Dataset and its measurements please refer to its README.txt and its feature_info.txt
 
-##The data analysis dataset includes the following files:
-##=========================================
+###The data analysis dataset includes the following files:
+
 - 'README.md' : This file  gives explanation on how the analysis script works and how its interconnected files.
 - 'CodeBook.md': Explanation on variables used in the run_analysis.R script
 - 'run_analysis.R': Script that cleans and analysis the UCI HAR Dataset according to the Assignment_Instructions
 - 'Assignement_Instructions.txt': Background information on the Data Analysis course project scope.
 For more information about the data analysis dataset contact: Benz Nydegger
 
-##Prerequisites before running data analysis script:
-##=========================================
+###Prerequisites before running data analysis script:
+
 - Complete 'UCI HAR Dataset': Source Input Data Set (Raw Data Set) - see INPUT-Dataset -
 - Make sure the 'UCI HAR Dataset' is placed at the same file system level as run_analysis.R
 - The user running 'run_analysis.R' needs write access in the directory it resides
 
-##INPUT-Dataset:
-##=========================================
+###INPUT-Dataset:
+
 Download Link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 	UCI HAR Dataset
@@ -74,8 +74,8 @@ Download Link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUC
 	* See acknowledgements to this data set
 
 
-##DataAnalysis-Script:
-##=========================================
+###DataAnalysis-Script:
+
 - 'run_analysis.R': Script that cleans and analysis the UCI HAR Dataset according to the Assignment_Instructions
 
 	run_analysis.R script breakdown:
